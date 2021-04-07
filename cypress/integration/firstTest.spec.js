@@ -34,7 +34,7 @@
 //     cy.visit('https://next.privat24.ua/')
 //     cy.get('*[class^="card"]')
 // });
-
+//Comment
 it('Using Get with Find and Eq', () => {
     cy.visit('https://next.privat24.ua/deposit')
     cy.get('tbody').find('td').find('div').find('button').eq('0')
